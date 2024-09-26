@@ -16,7 +16,7 @@ class DetailsScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset(drink['image']!), // Use Image.asset for local images
+            Image.asset(drink['image']!),
             SizedBox(height: 16),
             Text(
               'Ingredients:',
